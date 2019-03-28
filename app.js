@@ -3,7 +3,7 @@ var redis = require('redis').createClient();
    
    http.createServer(function (require, response) {
        if (require.url === '/favicon.ico'){
-           console.log('favicon');
+//           console.log('favicon');
            return;
         }
     redis.incr("count",function(err, reply) {
