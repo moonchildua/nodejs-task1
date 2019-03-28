@@ -1,1 +1,1 @@
-simple nodejs app. it conts visitors and put count into redis 
+simple nodejs app. it counts visitors and put count into redis 
