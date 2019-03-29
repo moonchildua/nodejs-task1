@@ -1,5 +1,5 @@
 var http = require('http');
-var redis = require('redis').createClient();
+var redis = require('redis').createClient(6379,'redis');
    
    http.createServer(function (require, response) {
        if (require.url === '/favicon.ico'){
