@@ -5,7 +5,6 @@ wget http://download.redis.io/redis-stable.tar.gz
 tar xvzf redis-stable.tar.gz
 cd redis-stable
 make
-sudo make /etc/redis
 sudo mkdir /etc/redis
 sudo mkdir /var/redis
 sudo cp utils/redis_init_script /etc/init.d/redis_6379
